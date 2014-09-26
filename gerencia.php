@@ -9,4 +9,10 @@
 		// realiza a exclusao do produto
 		echo "Produto excluído";
 	}
+        
+        $operacao= $_POST("atualizar");
+        if(strcmp($operacao,"atualizar")== 0 ){ 
+            
+                //atualiza o produto
+        }echo "Produto atualizado";
 ?>
